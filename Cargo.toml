@@ -1,0 +1,12 @@
+[package]
+name = "spalm"
+version = "0.1.0"
+authors = ["Erlimar Silva Campos <erlimar@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+
+[[bin]]
+name = "spalm"
+test = false
+doc = false
