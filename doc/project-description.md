@@ -1,7 +1,7 @@
 SPALM
 =====
 
-## Specification Project of E5R Application Lifecycle Management
+> Specification Project of E5R Application Lifecycle Management
 
 É uma ferramenta de linha de comando que auxilia no manuseio dos documentos de especificação para projetos no modelo ALM do time E5R.
 
