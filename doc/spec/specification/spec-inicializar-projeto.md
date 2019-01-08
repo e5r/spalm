@@ -7,7 +7,7 @@ INICIALIZAR PROJETO
 * [ ] Aprovação
 * [ ] Implementação
 * [ ] Teste
-* [ ] Liberação: [v0.0.0][TAGLink]
+* [ ] Liberação
 
 Permite inicializar um diretório qualquer com a estrutura base de um projeto
 de especificação de software, conforme modelo proposto pela equipe de
@@ -86,7 +86,7 @@ Então a mensagem "{ME01}" é exibida
 Então o programa encerra com código de falha 1
 ```
 
-**Nota!** Um diretório completamente inicializado é um diretório que contem
+**Nota!** Um diretório completamente inicializado é um diretório que contém
           todos os arquivos e diretórios listados abaixo:
 
 ```
@@ -117,7 +117,7 @@ Então o programa encerra com sucesso
 
 ## Funcionalidades relacionadas
 
-* Não há funcionalidades relacionadas
+* Não há funcionalidades relacionadas.
 
 ## Equipe
 
@@ -131,10 +131,10 @@ Aprovadores:
 * Erlimar Silva Campos, erlimar@gmail.com
 
 Implementadores:
-* Não implementado ainda
+* `Não implementado ainda`
 
 Testadores:
-* Não testado ainda
+* `Não testado ainda`
 
 ## Regras de Negócio
 [rn]: #rn
@@ -147,7 +147,7 @@ criado antes que e o projeto seja inicializado.
 ### RN02: Arquivos e diretórios já existentes não devem ser sobrescritos
 
 Quando o usuário informar um caminho de diretório que já contenha algum dos subdiretórios
-ou arquivos do modelo proposto. Este subdiretório ou arquivo não devem ser sobrescritos.
+ou arquivos do modelo proposto. Este subdiretório ou arquivo não deve ser sobrescrito.
 
 ### RN03: Diretório atual do processo é o padrão
 
@@ -155,12 +155,12 @@ Caso um caminho de diretório não seja informado, o diretório atual do process
 execução deve ser considerado como o caminho.
 
 ## Mensagens de sucesso
-- **MS01** - Projeto de especificação inicializado com sucesso em {a}
-  - `{a}` - Caminho completo do diretório "doc" criado
+- **MS01** - Projeto de especificação inicializado com sucesso em "{a}"!
+  - `{a}` - Caminho completo do subdiretório "doc" criado
 
 ## Mensagens de erro
-- **ME01** - O projeto de especificação em {a} já estava inicializado
-  - `{a}` - Caminho completo do diretório "doc" criado
+- **ME01** - O projeto de especificação em "{a}" já estava inicializado.
+  - `{a}` - Caminho completo do subdiretório "doc" criado
 
 ## Protótipos
 [prototype]: #prototype
@@ -174,7 +174,7 @@ Não há regras de apresentação.
 ## Links úteis
 [links]: #links
 
-Não existem outros links.
+Não há links.
 
 [ORIGEMLink]: ../proposal/inicializar-projeto.md
 [FEATURE-A]: ../link/to/feature-a.md
