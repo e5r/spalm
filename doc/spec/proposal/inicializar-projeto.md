@@ -2,9 +2,8 @@
 # INICIALIZAR PROJETO
 
 * [x] Proposta
-* [ ] Protótipo _(não há)_
-* [ ] Implementacao _(não implementado)_
-* [ ] Especificação _(não especificado)_
+* [x] Especificação: [spec-inicializar-projeto][SPECLink]
+* [ ] Implementacao _(não implementada)_
 
 ## Resumo
 [summary]: #summary
@@ -113,5 +112,6 @@ Não há questões não resolvidas.
 
 * [SEP - (Software Evolution Proposal)][SEPLink]
 
+[SPECLink]: ../specification/spec-inicializar-projeto.md
 [GitLink]: https://www.git-scm.com
 [SEPLink]: https://github.com/e5r/alm/blob/master/doc/draft/SEP.md
