@@ -86,6 +86,21 @@ Então a mensagem "{ME01}" é exibida
 Então o programa encerra com código de falha 1
 ```
 
+*Nota!* Um diretório completamente inicializado é um diretório que contem
+        todos os arquivos e diretórios listados abaixo:
+
+```
+./
+  doc/
+    tutorials/
+    spec/
+      proposal/
+  	  specification/
+      refused/
+    index.md
+    project.md
+```
+
 ### Cenário 5: Diretório não informado
 ```gherkin
 @RN03, @MS01
