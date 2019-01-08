@@ -86,8 +86,8 @@ Então a mensagem "{ME01}" é exibida
 Então o programa encerra com código de falha 1
 ```
 
-*Nota!* Um diretório completamente inicializado é um diretório que contem
-        todos os arquivos e diretórios listados abaixo:
+**Nota!** Um diretório completamente inicializado é um diretório que contem
+          todos os arquivos e diretórios listados abaixo:
 
 ```
 ./
@@ -155,11 +155,11 @@ Caso um caminho de diretório não seja informado, o diretório atual do process
 execução deve ser considerado como o caminho.
 
 ## Mensagens de sucesso
-- *MS01* - Projeto de especificação inicializado com sucesso em {a}
+- **MS01** - Projeto de especificação inicializado com sucesso em {a}
   - `{a}` - Caminho completo do diretório "doc" criado
 
 ## Mensagens de erro
-- *ME01* - O projeto de especificação em {a} já estava inicializado
+- **ME01** - O projeto de especificação em {a} já estava inicializado
   - `{a}` - Caminho completo do diretório "doc" criado
 
 ## Protótipos
