@@ -3,7 +3,7 @@ INICIALIZAR PROJETO
 
 * [x] Proposta: [inicializar-projeto][ORIGEMLink]
 * [x] Especificação: `2019-01-08`
-* [ ] Revisão
+* [x] Revisão: `2019-01-08`
 * [ ] Aprovação
 * [ ] Implementação
 * [ ] Teste
