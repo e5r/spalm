@@ -42,7 +42,7 @@ Seguindo, cria alguns arquivos e subdiretórios conforme sugestão abaixo:
       refused/
         .empty
     index.md
-    project-description.md
+    project.md
 ```
 
 #### `./`
@@ -77,7 +77,7 @@ qualquer para que o diretório seja submetido.
 Arquivo com informação do projeto e links para conteúdos da especificação
 (esse deve ser gerado automaticamente por outro comando).
 
-#### `./doc/project-description.md`
+#### `./doc/project.md`
 Arquivo com título e descrição do projeto (este irá auxiliar outro comando que
 monta o conteúdo de `./doc/index.md`).
 
