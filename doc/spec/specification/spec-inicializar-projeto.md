@@ -34,7 +34,7 @@ Path:              Caminho do diretório para inicializar.
 ### Cenário 1: Quando o diretório informado não existe
 ```gherkin
 Dado um caminho de diretório que não existe
-Quando acionar o comando init
+Quando acionar o comando "init"
 Então o diretório será criado
 Então subdiretório "doc" será criado no caminho indicado
 Então os subdiretórios "spec" e "tutorials" serão criados em "doc"
