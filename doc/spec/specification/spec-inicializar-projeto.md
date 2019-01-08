@@ -13,8 +13,6 @@ Permite inicializar um diretório qualquer com a estrutura base de um projeto
 de especificação de software, conforme modelo proposto pela equipe de
 desenvolvimento E5R.
 
-[Saiba mais sobre o modelo proposto pelo time E5R aqui.][E5R-ALM]
-
 A funcionalidade é acionada pelo seguinte comando:
 
 ```console
@@ -174,7 +172,7 @@ Não há regras de apresentação.
 ## Links úteis
 [links]: #links
 
-Não há links.
+* [Modelo ALM proposto pelo time E5R][E5R-ALM]
 
 [ORIGEMLink]: ../proposal/inicializar-projeto.md
 [FEATURE-A]: ../link/to/feature-a.md
