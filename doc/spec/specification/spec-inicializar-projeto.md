@@ -33,7 +33,7 @@ Path:              Caminho do diretório para inicializar.
 
 ### Cenário 1: Quando o diretório informado não existe
 ```gherkin
-@RN01
+@RN01, @MS01
 Dado um caminho de diretório que não existe
 Quando acionar o comando "init"
 Então o diretório será criado
@@ -42,7 +42,7 @@ Então os subdiretórios "spec" e "tutorials" serão criados em "doc"
 Então os subdiretórios "proposal", "refused" e "specification" serão criados em "doc/spec"
 Então um arquivo ".empty" será criado em cada subdiretório "proposal", "refused" e "specification"
 Então os arquivos "index.md" e "project.md" serão criados em "doc"
-Então a mensagem @MS01 é exibida
+Então a mensagem "{MS01}" é exibida
 Então o programa encessa sucesso
 ```
 
