@@ -26,8 +26,8 @@ Será muito mais produtivo ter uma funcionalidade que faça isso automaticamente
 ## Detalhamento
 [detailing]: #detailing
 
-Um comando que receba a localização de um diretório e crie-o caso não exista, seguindo,
-cria alguns arquivos e subdiretórios conforme sugestão abaixo:
+Um comando que receba a localização de um diretório e crie-o caso não exista.
+Seguindo, cria alguns arquivos e subdiretórios conforme sugestão abaixo:
 
 ```
 ./
@@ -67,9 +67,11 @@ Subdiretório reservado para propostas recusadas.
 
 #### `./doc/spec/**/.empty`
 Um arquivo vazio que deve ser removido assim que o primeiro arquivo real for
-adicionado. Isso é necessário para os sistemas de controle de versão como
+adicionado.
+
+Isso é necessário para os sistemas de controle de versão como
 *[Git][GitLink]*, que não guarda diretórios vazios, então faz-se necessário um arquivo
-qualquer para que seja submetido.
+qualquer para que o diretório seja submetido.
 
 ### `./doc/index.md`
 Arquivo com informação do projeto e links para conteúdos da especificação
@@ -78,6 +80,14 @@ Arquivo com informação do projeto e links para conteúdos da especificação
 #### `./doc/project-description.md`
 Arquivo com título e descrição do projeto (este irá auxiliar outro comando que
 monta o conteúdo de `./doc/index.md`).
+
+### Algumas notas
+
+* Não usar arquivos mágicos para identificação de diretório já inicializado.
+* Caso um diretório já esteja inicializado, porém falte algum subdiretório/aquivo,
+  este é simplesmente adicionado.
+* Um diretório é considerado já inicializado caso não precise criar nenhum
+  subdiretório/arquivo.
 
 ## Contras
 [drawbacks]: #drawbacks
@@ -101,10 +111,7 @@ Não há questões não resolvidas.
 ## Links úteis
 [links]: #links
 
-* Não usar arquivos mágicos para identificação de diretório já inicializado.
-* Caso um diretório já esteja inicializado, porém falte algum subdiretório/aquivo,
-  este é simplesmente adicionado.
-* Um diretório é considerado já inicializado caso não precise criar nenhum
-  subdiretório/arquivo.
+* [SEP - (Software Evolution Proposal)][SEPLink]
 
 [GitLink]: https://www.git-scm.com
+[SEPLink]: https://github.com/e5r/alm/blob/master/doc/draft/SEP.md
