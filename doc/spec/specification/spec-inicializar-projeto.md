@@ -4,7 +4,7 @@ INICIALIZAR PROJETO
 * [x] Proposta: [inicializar-projeto][ORIGEMLink]
 * [x] Especificação: `2019-01-08`
 * [ ] Revisão
-* [ ] Aceite
+* [ ] Aprovação
 * [ ] Implementação
 * [ ] Teste
 * [ ] Liberação: [v0.0.0][TAGLink]
@@ -25,7 +25,7 @@ Options:
     -h, --help     Exibe uma mensagem de ajuda da funcionalidade
 
 Path:              Caminho do diretório para inicializar.
-                   É opcional. Se não informado assume o diretório
+                   Opcional! Se não informado assume o diretório
                    atual do processo.
 ```
 
@@ -86,17 +86,34 @@ Então a mensagem "{ME01}" é exibida
 Então o programa encerra com código de falha 1
 ```
 
+### Cenário 5: Diretório não informado
+```gherkin
+@RN03, @MS01
+Dado uma execução sem informar o caminho do diretório
+Quando acionar o comando "init"
+Então subdiretório "doc" será criado no diretório atual do processo
+Então os subdiretórios "spec" e "tutorials" serão criados em "doc"
+Então os subdiretórios "proposal", "refused" e "specification" serão criados em "doc/spec"
+Então um arquivo ".empty" será criado em cada subdiretório "proposal", "refused" e "specification"
+Então os arquivos "index.md" e "project.md" serão criados em "doc"
+Então a mensagem "{MS01}" é exibida
+Então o programa encerra com sucesso
+```
+
 ## Funcionalidades relacionadas
 
 * Não há funcionalidades relacionadas
 
-## Equipe envolvida
+## Equipe
+
+Analistas:
+* Erlimar Silva Campos, erlimar@gmail.com
 
 Revisores:
 * Erlimar Silva Campos, erlimar@gmail.com
 
-Aceite:
-* Não aceita ainda
+Aprovadores:
+* Erlimar Silva Campos, erlimar@gmail.com
 
 Implementadores:
 * Não implementado ainda
@@ -117,13 +134,16 @@ criado antes que e o projeto seja inicializado.
 Quando o usuário informar um caminho de diretório que já contenha algum dos subdiretórios
 ou arquivos do modelo proposto. Este subdiretório ou arquivo não devem ser sobrescritos.
 
-## Mensagens
+### RN03: Diretório atual do processo é o padrão
 
-### Mensagens de sucesso
+Caso um caminho de diretório não seja informado, o diretório atual do processo em
+execução deve ser considerado como o caminho.
+
+## Mensagens de sucesso
 - *MS01* - Projeto de especificação inicializado com sucesso em {a}
   - `{a}` - Caminho completo do diretório "doc" criado
 
-### Mensagens de erro
+## Mensagens de erro
 - *ME01* - O projeto de especificação em {a} já estava inicializado
   - `{a}` - Caminho completo do diretório "doc" criado
 
