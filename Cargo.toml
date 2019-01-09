@@ -1,12 +1,16 @@
 [package]
 name = "spalm"
 version = "0.1.0"
-authors = ["Erlimar Silva Campos <erlimar@gmail.com>"]
+authors = [
+    "The E5R Development Team",
+    "Erlimar Silva Campos <erlimar@gmail.com>"
+]
+description = "Specification Project of E5R Application Lifecycle Management"
+repository = "https://gitlab.com/e5r/private/spalm"
+keywords = ["e5r", "cli", "alm"]
+readme = "README.md"
+license = "Apache-2.0/MIT"
+categories = ["development-tools"]
 edition = "2018"
 
 [dependencies]
-
-[[bin]]
-name = "spalm"
-test = false
-doc = false
