@@ -1,9 +1,8 @@
-
 # INICIALIZAR PROJETO
 
 * [x] Proposta
 * [x] Especificação: [spec-inicializar-projeto][SPECLink]
-* [x] Aceitação: `2018-01-08`
+* [x] Aceitação: `2019-01-08`
 * [ ] Implementacao: _(não implementada)_
 
 ## Resumo
