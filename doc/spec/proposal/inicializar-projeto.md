@@ -3,7 +3,8 @@
 
 * [x] Proposta
 * [x] Especificação: [spec-inicializar-projeto][SPECLink]
-* [ ] Implementacao _(não implementada)_
+* [x] Aceitação: `2018-01-08`
+* [ ] Implementacao: _(não implementada)_
 
 ## Resumo
 [summary]: #summary
