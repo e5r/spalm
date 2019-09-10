@@ -2,12 +2,12 @@ INICIALIZAR PROJETO
 ===================
 
 * [x] Proposta: [inicializar-projeto][ORIGEMLink]
-* [x] Especificação: `2019-01-08`
-* [x] Revisão: `2019-01-08`
-* [X] Aprovação: `2019-01-08`
-* [ ] Implementação
-* [ ] Teste
-* [ ] Liberação
+* [x] Especificada: `2019-01-08` _por Erlimar_
+* [x] Revisada: `2019-01-08` _por Erlimar_
+* [X] Aprovada: `2019-01-08` _por Erlimar_
+* [ ] _Não Implementada_
+* [ ] _Não Testada_
+* [ ] _Não Liberada_
 
 Permite inicializar um diretório qualquer com a estrutura base de um projeto
 de especificação de software, conforme modelo proposto pela equipe de
