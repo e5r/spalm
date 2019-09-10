@@ -93,7 +93,7 @@ Então o programa encerra com código de falha 1
     tutorials/
     spec/
       proposal/
-  	  specification/
+      specification/
       refused/
     index.md
     project.md
