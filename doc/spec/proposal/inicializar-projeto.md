@@ -36,7 +36,7 @@ Seguindo, cria alguns arquivos e subdiretórios conforme sugestão abaixo:
     spec/
       proposal/
         .empty
-  	  specification/
+      specification/
         .empty
       refused/
         .empty
