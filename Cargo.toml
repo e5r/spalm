@@ -6,7 +6,7 @@ authors = [
     "Erlimar Silva Campos <erlimar@gmail.com>"
 ]
 description = "Specification Project of E5R Application Lifecycle Management"
-repository = "https://gitlab.com/e5r/private/spalm"
+repository = "https://github.com/e5r/spalm"
 keywords = ["e5r", "cli", "alm"]
 readme = "README.md"
 license = "Apache-2.0/MIT"
