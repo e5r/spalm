@@ -1,6 +1,6 @@
 [package]
 name = "spalm"
-version = "0.1.0-alpha"
+version = "0.1.1-dev"
 authors = [
     "The E5R Development Team",
     "Erlimar Silva Campos <erlimar@gmail.com>"
