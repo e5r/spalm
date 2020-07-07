@@ -1,20 +1,19 @@
-use crate::cli::Cmd;
+use std::path::PathBuf;
+
+use crate::cli::{CmdError, CmdHandler, CmdResult};
 
 pub struct InitCommand {
-    name: String
+    with_git: bool,
 }
 
 impl InitCommand {
-    pub fn new() -> InitCommand {
-        InitCommand {
-            name: String::from("init")
-        }
+    pub fn new(with_git: bool) -> InitCommand {
+        InitCommand { with_git }
     }
 }
 
-impl Cmd for InitCommand {
-    fn exec(&self) -> Result<(), (i32)> {
-        println!("InitCommand #-> name: {}", self.name);
-        Ok(())
+impl CmdHandler for InitCommand {
+    fn exec(&self, _path: PathBuf) -> CmdResult {
+        Err(CmdError::UnknownError.into())
     }
 }
