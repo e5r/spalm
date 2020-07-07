@@ -1,0 +1,16 @@
+[book]
+title = "You project title"
+description = "Describe your project here"
+authors = ["Erlimar Silva Campos"]
+language = "en"
+multilingual = false
+src = "spec"
+
+[build]
+build-dir = "doc"
+create-missing = false
+
+[preprocessor.index]
+[preprocessor.links]
+
+[output.html]
